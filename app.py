@@ -1,9 +1,10 @@
 #from fcntl import F_SEAL_SEAL
+from crypt import methods
 from flask import Flask, jsonify, request
 import time 
 
 app = Flask(__name__)
-@app.route("/bot", method = ["POST"])
+@app.route("/bot", methods=["POST"])
 
 # response 
 def response():
