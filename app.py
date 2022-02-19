@@ -1,4 +1,4 @@
-from fcntl import F_SEAL_SEAL
+#from fcntl import F_SEAL_SEAL
 from flask import Flask, jsonify, request
 import time 
 
